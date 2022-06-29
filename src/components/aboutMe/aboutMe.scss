@@ -1,0 +1,56 @@
+.abouteMe{
+    position: relative;
+    background-color: wheat;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #2196F3;
+        height: 200px;
+        
+            h2 {
+                font-weight: 400;
+                margin-top: 15px;
+                font-size: 3em;
+            }
+
+            p {
+                font-weight: 500;
+                margin-top: 0px;
+                font-size: 25px;
+                text-align: center;
+            }
+
+
+    }
+
+    .content{
+
+        img{
+            position: absolute;
+            top: 38%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .boxCv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            height: 280px;
+            margin: 10px auto;
+            background-color: #f2f2f2;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 20px;
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
