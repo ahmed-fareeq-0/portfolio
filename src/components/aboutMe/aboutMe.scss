@@ -1,25 +1,27 @@
 .abouteMe{
     position: relative;
-    background-color: wheat;
+    
 
     .info {
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #2196F3;
-        height: 200px;
+        height: 170px;
         
             h2 {
                 font-weight: 400;
-                margin-top: 15px;
-                font-size: 3em;
+                margin-top: 10px;
+                font-size: 45px;
+                color: #fff;
             }
 
             p {
-                font-weight: 500;
+                font-weight: 400;
                 margin-top: 0px;
                 font-size: 25px;
                 text-align: center;
+                color: #fff;
             }
 
 
@@ -29,27 +31,63 @@
 
         img{
             position: absolute;
-            top: 38%;
+            top: 35%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 200px;
+            width: 170px;
+            object-fit: cover;
             border-radius: 50%;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            
         }
 
         .boxCv{
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             width: 80%;
-            height: 280px;
-            margin: 10px auto;
-            background-color: #f2f2f2;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            padding: 20px;
+            margin: 25px auto;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 90px 10px 20px 10px;
+
+            .socialMedia{
+
+                margin: 25px 0;
+
+                .icon{
+                    font-size: 25px;
+                    color: #1f5b8c;
+                    margin: 0 10px 0 10px;
+
+                    &:hover{
+                        color: #55af14;
+                    }
+                }
+            }
 
             p {
                 text-align: center;
+                
+                
+            }
+
+            .contact{
+
+                margin: 30px 0 0 0; 
+
+                .btn{
+                    color: rgb(255, 255, 255);
+                    width: 180px;
+                    cursor: pointer;
+                    padding: 5px 0;
+                    font-weight: 500;
+                    outline: none;
+                    border: none;
+                    background-color:#2196F3;
+                    font-size: 18px;
+                    margin: 0 20px 5px 20px;
+                }
             }
         }
     }
