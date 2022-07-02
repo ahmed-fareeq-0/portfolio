@@ -1,7 +1,7 @@
 import './App.scss';
 import TopBar from './components/topbar/TopBar';
 import AboutMe from './components/aboutMe/AboutMe.jsx';
-import Works from './components/works/Works.jsx'
+import Skills from './components/skills/skills.jsx'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
 
         <div className="sections">
           <AboutMe />
-          <Works />
+          <Skills />
         </div>
     </div>
   );

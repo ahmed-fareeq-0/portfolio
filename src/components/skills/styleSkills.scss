@@ -1,0 +1,77 @@
+.skills{
+
+    .title{
+        margin-top: 35px;
+        text-align: center;
+        color: rgb(41, 39, 39);
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+
+        h3{
+            text-align: center;
+            margin: 20px 0;
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .card {
+            background-color: #2196F3;
+            width: 300px;
+            height: auto;
+            margin: 0 20px;
+            padding: 20px;
+            border-radius: 10px;
+
+            .skillProgress{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 10px;
+
+                .skill {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    p{
+                        color: #fff;
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+                }
+
+                .tape1{
+
+                    position: relative;
+                    height: 4px;
+                    display: block;
+                    width: 100%;
+                    background-color: #acece6;
+                    border-radius: 2px;
+                    margin: 0.5rem 0 1rem 0;
+                    overflow: hidden;
+
+                    .tape2{
+                        float: left;
+                        width: 40%;
+                        height: 100%;
+                        font-size: 12px;
+                        line-height: 20px;
+                        color: #fff;
+                        text-align: center;
+                        background-color: #337ab7;
+                        -webkit-transition: width .6s ease;
+                        -o-transition: width .6s ease;
+                        transition: width .6s ease;
+                    }
+                }
+            }
+        }
+    }
+}
