@@ -1,6 +1,6 @@
 import './styleSkills.scss';
 
-const skills = () => {
+const skills = ({Color}) => {
   return (
     <div className='skills'>
       <h2 className='title'>Skills</h2>
