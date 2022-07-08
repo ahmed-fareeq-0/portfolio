@@ -14,17 +14,17 @@ function App() {
 
   const [Color, setColor] = useState("#2196F3");
 
-  // setTimeout(() => {
+   setTimeout(() => {
 
-  //   if (Color === "#2196F3") {
-  //     setColor("#673AB7")
-  //   } else if (Color === "#673AB7") {
-  //     setColor("#49332b")
-  //   } else {
-  //     setColor("#2196F3")
-  //   }
+     if (Color === "#2196F3") {
+       setColor("#673AB7")
+     } else if (Color === "#673AB7") {
+       setColor("#49332b")
+     } else {
+       setColor("#2196F3")
+     }
 
-  // }, 100000);
+   }, 10000);
 
   // ---------------------------------------------------
 
@@ -37,7 +37,7 @@ function App() {
         <Skills Color={Color} />
         <Projects Color={Color} />
         <Hobbies Color={Color} />
-        <Contact />
+        <Contact Color={Color} />
       </div>
     </div>
   );

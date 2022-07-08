@@ -11,13 +11,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            height: 80%;
 
                 .card{
                     font-family: 'Lato', Arial, sans-serif;
                     position: relative;
                     display: inline-block;
                     overflow: hidden;
-                    margin: 10px ;
+                    margin: 5px 10px ;
                     min-width: 250px;
                     max-width: 310px;
                     width: 100%;
@@ -26,6 +27,18 @@
                     text-align: center;
                     font-size: 16px;
                     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    cursor: pointer;
+                    transition: all 0.7s ease;
+
+                    &.featured {
+                        max-width: 340px;
+                    }
+
+                    &:hover{
+                        transform: scale(1.1);
+                        margin: 0 20px;
+                    }
+                    
 
                         .profile-image{
                             padding: 10% 5% 0;
@@ -65,6 +78,7 @@
                                                                 cursor: pointer;
                                                                 font-weight: 500;
                                                                 color: #fff;
+                                                                transition: all 2s ease;
                                                 
                                                                 &:hover{
                                                                     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);

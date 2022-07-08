@@ -2,13 +2,13 @@ import './styleSkills.scss';
 
 const skills = ({Color}) => {
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <h2 className='title'>Skills</h2>
       <div className='cards'>
 
 
 
-        <div className='card'>
+        <div className='card' style={{backgroundColor: `${Color}`}}>
         <h3>programming languages</h3>
           <div className='skillProgress'>
             <div className='skill'>
@@ -62,7 +62,7 @@ const skills = ({Color}) => {
         </div>
 
 
-        <div className='card'>
+        <div className='card' style={{backgroundColor: `${Color}`}}>
         <h3>programming languages</h3>
           <div className='skillProgress'>
             <div className='skill'>
@@ -115,7 +115,7 @@ const skills = ({Color}) => {
           </div>
         </div>
 
-        <div className='card'>
+        <div className='card' style={{backgroundColor: `${Color}`}}>
         <h3>programming languages</h3>
           <div className='skillProgress'>
             <div className='skill'>

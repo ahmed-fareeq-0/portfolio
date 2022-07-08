@@ -9,12 +9,12 @@ import {GiArtilleryShell} from "react-icons/gi";
 import {IoIosColorPalette} from 'react-icons/io';
 
 
-const Hobbies = () => {
+const Hobbies = ({Color}) => {
 
 
 
   return (
-    <div className='hobbies'>
+    <div className='hobbies' id='hobbies'>
       <h2 className='title'>Hobbies</h2>
 
         <div className='wrapper'>
@@ -24,10 +24,10 @@ const Hobbies = () => {
             <div className='icons'>
                 <ul>
 
-                    <li><IoIosColorPalette className='icon' /> Drawing</li>
-                    <li><GiArtilleryShell className='icon' /> Author</li>
-                    <li><ImBook className='icon' /> Reading</li>
-                    <li><AiFillCamera className='icon' /> Photography</li>
+                    <li><IoIosColorPalette className='icon' style={{color: `${Color}`}} /> Drawing</li>
+                    <li><GiArtilleryShell className='icon' style={{color: `${Color}`}} /> Author</li>
+                    <li><ImBook className='icon' style={{color: `${Color}`}} /> Reading</li>
+                    <li><AiFillCamera className='icon' style={{color: `${Color}`}} /> Photography</li>
                     
 
                 </ul>
