@@ -110,14 +110,20 @@
             height: 100%;
 
             .card{
-
                 min-width: 310px;
                 margin-bottom: 20px;
+
+                    &:hover{
+                        transform: scale(0.9);
+                        margin: 0 0 20px 0;
+                    }
                 
                 
                 &.featured{
-                    max-width:0;
+                    max-width:310px;
                 }
+
+                
             }
 
             
