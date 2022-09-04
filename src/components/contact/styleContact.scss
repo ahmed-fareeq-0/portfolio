@@ -14,6 +14,11 @@
             align-items: center;
             height: 550px;
             width: 100%;
+
+            // @media screen and ( max-width: 420px ) {
+            //     flex-direction: column;
+            //     height: auto;
+            // }
             
 
             .boxLeft{
@@ -28,6 +33,12 @@
                 // background-color: #2196F3;
                 border-radius: 10px;
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                @media screen and ( max-width: 420px ) {
+                    height: auto;
+                    margin-right: 0;
+                    box-shadow: none;
+                }
                 
 
 
@@ -65,6 +76,11 @@
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                 padding: 15px;
 
+                // @media screen and ( max-width: 420px ) {
+                //     padding: 0%;
+                //     width: 100%;
+                // }
+
                 
 
                 form {
@@ -73,6 +89,8 @@
                     flex-direction: column;
                     justify-content: flex-start;
                     align-items: flex-start;
+
+                    
 
 
                     h2 {
@@ -125,4 +143,49 @@
                 }
             }
         }
+}
+
+@media only screen  and (min-width:320px) and (max-width:480px) {
+    
+    .Contact{
+
+       
+        .wrapper{
+            
+                flex-direction: column;
+                height: auto;
+                width: 100%;
+
+                .boxRight{
+                    box-shadow: none;
+                        padding: 0%;
+                        width: 100%;
+                    
+                        form{
+
+                            
+                            width: 90%;
+                            margin: auto;
+                            height: 100%;
+
+                            h2{
+                                margin: 0;
+                            }
+
+                            p{
+                                margin: 5px 0 5px 0;
+                             }
+
+                            .fixed{
+                                width: 100%;
+                                margin-left: 0;
+                            }
+
+                            button{
+                                margin-left: 0;
+                            }
+                        }
+                }
+        }
+    }
 }

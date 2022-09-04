@@ -31,12 +31,16 @@
                                 justify-content: center;
                                 align-items: center;
 
+
+
                                     li{
                                         display: flex;
                                         flex-direction: column;
                                         align-items: center;
                                         margin: 10px 20px;
                                         font-weight: 500;
+
+
 
 
                                                 .icon {
@@ -53,4 +57,27 @@
                 }
         }
 
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .hobbies{
+
+      .wrapper{
+        .card{
+            width: 80%;
+            ul{
+                padding: 0;
+               
+                li{
+                    text-align: center;
+                    font-size: 13px;
+                    display: list-item;
+                    margin: 0;
+                    font-weight: 500;
+                
+                }
+            }
+        }
+      }
+    }
 }

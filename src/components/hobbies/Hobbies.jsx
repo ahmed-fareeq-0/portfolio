@@ -19,7 +19,7 @@ const Hobbies = ({Color}) => {
 
         <div className='wrapper'>
             <div className='card'>
-            <p>هناك الكثير من الهوايات التي أفضل أن أتسلى بها أثناء فترة فراغي وسأذكر بعضاً منها</p>
+            <p>I have many hobbies, I will mention some of them</p>
 
             <div className='icons'>
                 <ul>

@@ -1,4 +1,5 @@
 import  './styleTopBar.scss';
+import './mediaQuery.scss'
 
 
 
@@ -6,6 +7,7 @@ export default function TopBar({Color}) {
   return (
     <div style={{backgroundColor:`${Color}`}} className='topbar'>
       <div className='wrapper'>
+
         <ul className='nav'>
           <li><a href="#aboute"> Aboute </a></li>
           <li><a href="#skills"> Skills </a></li>
@@ -13,6 +15,7 @@ export default function TopBar({Color}) {
           <li><a href="#hobbies"> Hobbies </a></li>
           <li><a href="#contact"> Contact </a></li>
         </ul>
+
       </div>
     </div>
   );

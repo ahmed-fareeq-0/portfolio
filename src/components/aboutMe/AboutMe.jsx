@@ -14,7 +14,7 @@ export default function AboutMe({Color}) {
     </div>
 
       <div className='content'>
-        <img src='/image/se2.jpg' alt='img' />
+        <img src='/image/se2.jpg' alt='img' className='image' />
 
         
         
